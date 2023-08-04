@@ -34,6 +34,7 @@ const Curso = sequelize.define('Curso', {
 });
 
 
+
 async function checkCursoData() {
     try {
       const cursos = await Curso.findAll();

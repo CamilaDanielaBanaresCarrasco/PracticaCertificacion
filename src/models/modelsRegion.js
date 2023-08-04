@@ -16,6 +16,7 @@ const Region = sequelize.define('Region', {
 });
 
 
+
 async function checkRegionData() {
     try {
       const regions = await Region.findAll();

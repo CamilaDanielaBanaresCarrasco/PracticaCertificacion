@@ -44,6 +44,8 @@ const Estudiante = sequelize.define('Estudiante', {
 });
 
 
+
+
 async function checkEstudianteData() {
     try {
       const estudiantes = await Estudiante.findAll();
@@ -55,6 +57,10 @@ async function checkEstudianteData() {
     }
   }
   
+
+
+
+
   checkEstudianteData();
 
 export {
